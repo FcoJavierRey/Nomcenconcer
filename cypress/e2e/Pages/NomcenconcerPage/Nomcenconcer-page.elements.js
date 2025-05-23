@@ -2,7 +2,7 @@ export class NomcenconcerElements {
   static get Menu() {
     return {
       get  Nominillas() {
-        return cy.contains('font', 'Nominillas');
+           return cy.contains('font', 'Nominillas');
         
       },
 
