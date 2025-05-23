@@ -6,6 +6,11 @@ export class Nominillaslements {
         
       },
 
+       get  Certificados() {
+        return cy.contains('font', 'Certificados de la Renta').first();
+        
+      },
+
        get  Retribuciones() {
         return cy.contains('font', 'Nómina de Retribuciones').first();
         
@@ -19,6 +24,12 @@ export class Nominillaslements {
         return cy.contains('font', 'Informe de Incidencias').first();
         
       },
+        get  CerficadosRenta() {
+        return cy.contains('a', 'Certificado de la renta 2024').first();
+        
+      },
+      
+      
            
     }
 }

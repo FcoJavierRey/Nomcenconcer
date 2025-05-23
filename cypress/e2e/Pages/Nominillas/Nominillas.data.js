@@ -4,6 +4,10 @@ static get urlNominillas() {
     return "https://wwwpre.educacion.org/educacion/pa/nomcenconcer/scripts/Nominillas.asp?log=1";
   };
  
+static get urlCertificados() {
+    return "https://wwwpre.educacion.org/educacion/pa/nomcenconcer/scripts/Retenciones.asp";
+  };
+
   static get urlImpreNominillas() {
     return "educacion/pa/nomcenconcer/scripts/Imprimir.asp";
   };

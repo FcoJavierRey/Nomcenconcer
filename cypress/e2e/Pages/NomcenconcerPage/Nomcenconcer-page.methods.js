@@ -16,6 +16,10 @@ static clicOnNominilla() {
     NomcenconcerElements.Menu.Nominillas.click();
   }
 
+  static clicOnCertificados() {
+    NomcenconcerElements.Menu.CertificadosRenta.click();
+  }
+
   static clicOnRetenciones() {
     NomcenconcerElements.Menu.CertificadosRenta.click();
   }

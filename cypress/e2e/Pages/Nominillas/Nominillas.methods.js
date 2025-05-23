@@ -7,6 +7,10 @@ static clicOnNominilla() {
    Nominillaslements.Menu.Nominillas.click();
   }
 
+  static clicOnCertificados() {
+   Nominillaslements.Menu.Certificados.click();
+  }
+
   static clicOnRetribuciones() {
     Nominillaslements.Menu.Retribuciones.click();
   }
@@ -19,9 +23,19 @@ static clicOnNominilla() {
     Nominillaslements.Menu.Incidencias.click();
   }
 
+  static clicOnCertificadosRenta() {
+   Nominillaslements.Menu.CerficadosRenta.click();
+  }
+
+
   static navigateToNominillasOk() {
       cy.visit(NominillasData.urlNominillas);
    } 
+
+   static navigateToCertificadosOk() {
+       cy.visit(NominillasData.urlCertificados);
+   } 
+
 
    static navigateToImpreNominillasOk() {
       cy.request(NominillasData.urlImpreNominillas);
