@@ -23,6 +23,22 @@ static clicOnNominilla() {
       cy.visit(NominillasData.urlNominillas);
    } 
 
+   static navigateToImpreNominillasOk() {
+      cy.request(NominillasData.urlImpreNominillas);
+   } 
+
+   static navigateToImpreRetribucionesOk() {
+      cy.url().should('include', NominillasData.urlImpreRetribuciones);
+   } 
+
+   static navigateToImpreReintegrosOk() {
+      cy.url().should('include',NominillasData.urlImpreReintegros);
+   } 
+
+     static navigateToImpreIncidenciasOk() {
+      cy.url().should('include',NominillasData.urlImpreIncidencias);
+   } 
+
    static VerNominillasLink() {
     Nominillaslements.Menu.Nominillas.should('exist')
  }

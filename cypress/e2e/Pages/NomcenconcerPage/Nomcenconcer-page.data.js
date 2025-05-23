@@ -10,7 +10,7 @@ static get url() {
       registro: "Registro",
       autenticacion: "Nomcenconcer: Autenticación",
       ImpresionNominillas: "Nomcenconcer: Impresión de Nominillas",
-      GeneracionNominillas: "Nomcenconcer: Certificados de Renta",
+      CertificadosRenta: "Nomcenconcer: Certificados de Renta",
     };
   }
 
