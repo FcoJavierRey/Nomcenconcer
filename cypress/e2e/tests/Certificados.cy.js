@@ -7,7 +7,7 @@ import { LoginMethods } from "../pages/login/login.methods";
 import { Logger } from "../util/logger";
 
 describe(NomcenconcerData.testSuites.CertificadosRenta, () => {
-  it("Navegar a pantalla selección Certificados", () => {
+  it("Navegar a pantalla selección Certificados Renta", () => {
     Logger.stepNumber(1);
     Logger.step("Navegar a la página Sistema Centralizado de Autenticación");
     NomcenconcerMethods.navigateToNomcenconcer();
